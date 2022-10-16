@@ -21,7 +21,7 @@ public class HelloController {
 	}
 	@RequestMapping("/greet")
 	public  String  greet() {
-		return "<h2> Hello Ishika Good morning Jenkins here!!!!</h2>";
+		return "<h2> Hello Ishika Good morning Jenkins here!!!!</h2> ";
 		
 	}
 
