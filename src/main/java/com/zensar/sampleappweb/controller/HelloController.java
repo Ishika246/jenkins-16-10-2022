@@ -19,5 +19,10 @@ public class HelloController {
 		return "<h2> Bye Ishika  </h2>";
 		
 	}
+	@RequestMapping("/greet")
+	public  String  greet() {
+		return "<h2> Hello Ishika Good morning!!!! </h2>";
+		
+	}
 
 }
